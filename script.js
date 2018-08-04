@@ -124,3 +124,54 @@
 		// var animales = ["perro","gato","foca","mono"];
 		// var union = frutas.concat(animales);
 		// document.getElementById("demo").innerHTML = union;
+
+
+		// var personas = ["alvaro","ivan","teresa","bravo"];
+		// personas.sort(); //sort sirve para organizar el arreglo alfanumericamente ASC (a,b,c,d....)
+		// document.getElementById("demo").innerHTML = personas;
+
+		// var personas = ["zuleima","ivan","teresa","bravo","alvaro"];
+		// document.getElementById("demo").innerHTML = personas;
+		// function prueba(){
+		// 	personas.sort();
+		// 	personas.reverse(); //reverse se usa para organizar el arreglo alfanumericamente DESC (z,x,y,w...)
+		// document.getElementById("demo").innerHTML = personas;
+		// }
+
+		// var puntos = [50,100,10,30,5,40];
+		// document.getElementById("demo").innerHTML = puntos;
+		// function prueba(){
+		// 	puntos.sort(function(a , b) { return a - b; }); // organizar numeros donde a es inferior to b
+		// document.getElementById("demo").innerHTML = puntos;
+		// }
+
+		// var puntos = [50,100,10,30,5,40];
+		// document.getElementById("demo").innerHTML = puntos;
+		// function prueba(){
+		// 	puntos.sort(function(a,b) { return 0.5 - Math.random() }); //generando arreglo con valores aleatorios
+		// 	document.getElementById("demo").innerHTML = puntos;
+		// }
+
+		// var cars = [
+		// 	{type:"Volvo", year:2016},
+		// 	{type:"Saab", year:2001},
+		// 	{type:"BMW", year:2010}]
+		// 	displayCars();
+		// 	function prueba() {
+		// 	    cars.sort(function(a, b){return a.year - b.year});
+		// 	    displayCars();
+		// 	}
+		// 	function displayCars() {
+		// 	  document.getElementById("demo").innerHTML =
+		// 	  cars[0].type + " " + cars[0].year + "<br>" +
+		// 	  cars[1].type + " " + cars[1].year + "<br>" +
+		// 	  cars[2].type + " " + cars[2].year;
+		// 	}
+
+		// var text = "";
+		// var numeros = [1,5,7,9,10];
+		// numeros.forEach(functionDnumer);
+		// 	document.getElementById("demo").innerHTML = text;	
+		// function functionDnumer(value,index,array){
+		// 	text = text + value+"<br>";
+		// }
